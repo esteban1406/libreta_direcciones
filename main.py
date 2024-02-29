@@ -16,7 +16,7 @@ def main():
     while True:
         opcion = menu()
         if opcion == "1" :
-            nombre = input("nombre")
+            nombre = input("nombre ingrese")
             telefono = input("telefono")
             correo = input("correo")
             libreta.agregar_contacto(nombre,telefono,correo)
